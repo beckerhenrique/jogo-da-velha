@@ -1,0 +1,156 @@
+*{
+   background-color: #212529;
+   color: white;
+}
+::placeholder{
+   color: white;
+}
+
+ td {
+   width: 100px;
+   height: 100px;
+ }
+ table {
+   margin: 5px auto;
+ }
+ .vert {
+   border-left: 2px solid white;
+   border-right: 2px solid white;
+ }
+ .hori {
+   border-top: 2px solid white;
+   border-bottom: 2px solid white;
+ }
+.flex{
+   text-align: center;
+   justify-content: center;
+}
+.nomeJogadores{
+   text-align: center;
+   flex: auto;
+   width: 30%;
+   height: 25px;
+   border: 2px solid rgb(184, 182, 182);
+}
+.lista-jogadores{
+   text-align: center;
+   flex: auto;
+}
+.row{
+   display: flex;
+   height: 25px;
+   justify-content: space-around;
+   align-items: center;
+   margin: 5px;
+}
+p{
+   font-size: 20px;
+   font-weight: 800;
+}
+h1{
+   border: 2px solid white;
+   height: 50px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 12px;
+}
+h2{
+   margin: 5px;
+}
+.jogadores{
+   justify-content: space-around;
+   display: flex;
+   gap: 10px;
+}
+.botaoComeco{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 40px;
+   margin-bottom: 15px;
+}
+.comecoJogo{
+   height: 30px;
+   border-color: rgb(184, 182, 182);
+   border-radius: 10px;
+   transition-duration: 0.4s;
+}
+.comecoJogo:hover{
+   background-color: rgb(190, 243, 146);
+   color: black;
+}
+
+#jogadorAtual{
+   margin-bottom: 20px;
+   border: 2px solid rgb(184, 182, 182);
+   width: 30%;
+   height: 30px;
+   font-size: 20px;
+   text-align: center;
+}
+.board{
+   display: grid;
+   gap: 10px;
+   grid-template-columns: 1fr 1fr 1fr;
+   width: 30%;
+   margin: auto;
+   
+}
+#botao1, #botao2, #botao3, #botao4, #botao5, #botao6, #botao7, #botao8, #botao9{
+   height: 100px;
+   width: 100px;
+   align-self: center;
+   justify-self: center;
+   border: 2px solid rgb(184, 182, 182);
+   font-size: 30px;
+}
+.success{
+   border: 2px solid greenyellow !important;
+}
+.empate{
+   border: 2px solid rgb(245, 70, 70) !important;
+}
+#lugarInformacoes{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 50%;
+   margin: auto;
+   
+}
+.board input{
+   cursor: pointer;
+}
+#jogadorAtualInput{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin: auto;
+   margin-bottom: 20px;
+}
+.botaoReset{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 40px;
+   margin-top: 15px;
+}
+.resetJogo{
+   height: 30px;
+   border-color: rgb(184, 182, 182);
+   border-radius: 10px;
+   transition-duration: 0.4s;
+}
+.resetJogo:hover{
+   background-color: rgb(190, 243, 146);
+   color: black;
+}
+.board input{
+   display: flex;
+   text-align: center;
+}
+
+
+/* align itens vertical */
+/* justify content horizontal */

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Jogo da Velha</title>
+
+   <script src="index.js" defer></script>
+   <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+   <h1>JOGO DA VELHA</h1>
+   <div class="lista-jogadores">
+      <h2>Lista de Jogadores</h2>
+      <div class="row">
+         <p>Jogador 1</p>
+         <p>Jogador 2</p>
+      </div>
+      <div class="jogadores flex">
+         <input type="text" placeholder="Nome" class="nomeJogadores" id="jogador1">
+         <input type="text" placeholder="Nome" class="nomeJogadores" id="jogador2">
+      </div>
+      <br>
+   </div>
+   <div class="botaoComeco">
+      <button class="comecoJogo" onclick="inicioJogo()">Começar a jogar</button>
+   </div>
+   <section id="lugarInformacoes">
+
+   </section>
+   <div class="flex" id="jogadorAtualinput">
+      <input type="text" id="jogadorAtual" disabled>
+   </div>
+   
+   <div class="board">
+      <input type="text" id="botao1" onclick="botao1(); checarGanhador();" readonly disabled>
+      <input type="text" id="botao2" onclick="botao2(); checarGanhador();" readonly disabled>
+      <input type="text" id="botao3" onclick="botao3(); checarGanhador();" readonly disabled>
+      <input type="text" id="botao4" onclick="botao4(); checarGanhador();" readonly disabled>
+      <input type="text" id="botao5" onclick="botao5(); checarGanhador();" readonly disabled>
+      <input type="text" id="botao6" onclick="botao6(); checarGanhador();" readonly disabled>
+      <input type="text" id="botao7" onclick="botao7(); checarGanhador();" readonly disabled>
+      <input type="text" id="botao8" onclick="botao8(); checarGanhador();" readonly disabled>
+      <input type="text" id="botao9" onclick="botao9(); checarGanhador();" readonly disabled>
+
+   </div>
+   <div class="botaoReset">
+      <button class="resetJogo" onclick="resetJogo()">Resetar o jogo.</button>
+   </div>
+   
+</body>
+</html>
