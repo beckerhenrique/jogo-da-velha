@@ -1,0 +1,24 @@
+Jogo da Velha
+Este é um jogo da velha criado utilizando HTML, CSS e JavaScript. O objetivo do jogo é preencher uma linha, coluna ou diagonal com X ou O antes do seu adversário.
+
+Como jogar:
+  Insira os nomes dos jogadores nos espaços fornecidos.
+  Clique no botão "Começar a jogar" para iniciar o jogo. O jogo só começará se ambos os campos de jogadores tiverem algum caractere.
+  Cada jogador deve clicar em uma casa vazia no tabuleiro para marcar sua jogada com X ou O. O jogador 1 usará X e o jogador 2 usará O.
+  O jogo exibirá qual jogador está na vez acima do tabuleiro.
+  Se um jogador conseguir preencher uma linha, coluna ou diagonal com três X ou O, as casas vencedoras serão destacadas em verde e o jogo terminará.
+  Se o jogo terminar em um empate, o tabuleiro ficará vermelho.
+  Para jogar novamente, clique no botão "Resetar jogo" localizado no inferior da página.
+
+Tecnologias utilizadas:
+  HTML
+  CSS
+  JavaScript
+  
+Para executar o jogo, siga as seguintes etapas:
+
+  Baixe os arquivos do jogo para o seu computador.
+  Abra o arquivo "index.html" em um navegador da web moderno.
+  Insira os nomes dos jogadores nos campos fornecidos.
+  Clique no botão "Começar a jogar" para iniciar o jogo.
+  Divirta-se jogando!
